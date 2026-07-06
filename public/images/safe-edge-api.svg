@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Public-safe Edge API architecture</title>
+  <desc id="desc">Generic architecture diagram for edge API gateway, authentication, cache, databases, messaging, and device-control workflows.</desc>
+  <defs><marker id="a" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M2 2l8 4-8 4z" fill="#2563eb"/></marker></defs>
+  <rect width="1200" height="675" fill="#f8fafc"/>
+  <g font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif">
+    <text x="58" y="74" font-size="34" font-weight="700" fill="#0f172a">Edge API Service Pattern</text>
+    <text x="60" y="108" font-size="16" fill="#475569">Public-safe API pattern for edge applications, data services, and device-control workflows</text>
+    <g fill="#fff" stroke="#cbd5e1" stroke-width="2">
+      <rect x="70" y="225" width="195" height="95" rx="18"/><rect x="70" y="385" width="195" height="95" rx="18"/>
+      <rect x="400" y="250" width="260" height="155" rx="22"/><rect x="755" y="145" width="210" height="78" rx="18"/><rect x="755" y="260" width="210" height="78" rx="18"/><rect x="755" y="375" width="210" height="78" rx="18"/><rect x="755" y="490" width="210" height="78" rx="18"/>
+    </g>
+    <rect x="400" y="250" width="260" height="155" rx="22" fill="#eff6ff" stroke="#2563eb" stroke-width="3"/>
+    <g fill="#0f172a" font-size="21" font-weight="700"><text x="106" y="263">Edge Apps</text><text x="106" y="423">Upstream Apps</text><text x="456" y="304">Golang API</text><text x="795" y="180">Auth</text><text x="795" y="295">Cache</text><text x="795" y="410">Databases</text><text x="795" y="525">Message Bus</text></g>
+    <g fill="#475569" font-size="15"><text x="106" y="291">dashboards + tools</text><text x="106" y="451">notifications</text><text x="456" y="333">validation + routing</text><text x="456" y="358">contracts + controls</text><text x="795" y="206">token + signature</text><text x="795" y="321">hot responses</text><text x="795" y="436">records + events</text><text x="795" y="551">async workflows</text></g>
+    <g fill="none" stroke="#2563eb" stroke-width="3" marker-end="url(#a)"><path d="M265 272 L400 310"/><path d="M265 432 L400 358"/><path d="M660 300 C705 252 710 184 755 184"/><path d="M660 325 L755 300"/><path d="M660 352 L755 414"/><path d="M660 382 C705 434 710 526 755 530"/></g>
+  </g>
+</svg>

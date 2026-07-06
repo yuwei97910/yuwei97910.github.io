@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Public-safe Edge AI architecture</title>
+  <desc id="desc">Generic architecture diagram for edge AI applications, event streams, APIs, MCP tools, and AI workflows.</desc>
+  <defs><marker id="a" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M2 2l8 4-8 4z" fill="#0f766e"/></marker></defs>
+  <rect width="1200" height="675" fill="#f7fbfa"/>
+  <g font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif">
+    <text x="58" y="74" font-size="34" font-weight="700" fill="#10201f">Edge AI Application Architecture</text>
+    <text x="60" y="108" font-size="16" fill="#52615f">Public-safe view of edge data, APIs, MCP tools, and AI workflows</text>
+    <g fill="#fff" stroke="#b7ddd8" stroke-width="2">
+      <rect x="62" y="235" width="190" height="110" rx="18"/><rect x="340" y="175" width="210" height="105" rx="18"/><rect x="340" y="390" width="210" height="105" rx="18"/>
+      <rect x="660" y="180" width="210" height="105" rx="18"/><rect x="660" y="390" width="210" height="105" rx="18"/><rect x="960" y="285" width="170" height="110" rx="18"/>
+    </g>
+    <g fill="#10201f" font-size="21" font-weight="700"><text x="95" y="278">Equipment</text><text x="376" y="218">Event Streams</text><text x="376" y="433">Edge APIs</text><text x="700" y="223">Data Services</text><text x="700" y="433">MCP Tools</text><text x="1000" y="328">AI Apps</text></g>
+    <g fill="#52615f" font-size="15"><text x="95" y="306">signals + states</text><text x="376" y="246">MQTT · AMQP · Kafka</text><text x="376" y="461">control + status</text><text x="700" y="251">metrics + metadata</text><text x="700" y="461">actions + resources</text><text x="1000" y="356">agents + SDKs</text></g>
+    <g fill="none" stroke="#0f766e" stroke-width="3" marker-end="url(#a)"><path d="M252 290 C302 270 304 230 340 226"/><path d="M252 306 C304 334 307 430 340 444"/><path d="M550 226 L660 226"/><path d="M550 444 L660 444"/><path d="M870 226 C930 244 930 310 960 328"/><path d="M870 444 C930 420 930 360 960 346"/></g>
+  </g>
+</svg>

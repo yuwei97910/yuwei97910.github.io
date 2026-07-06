@@ -1,0 +1,25 @@
+services:
+  # Hot-reload dev server: docker compose up dev
+  dev:
+    build:
+      context: .
+      target: dev
+    ports:
+      - '5173:5173'
+    volumes:
+      - .:/app
+      - node_modules:/app/node_modules
+    environment:
+      - CHOKIDAR_USEPOLLING=true
+
+  # Production bundle behind nginx: docker compose --profile preview up preview
+  preview:
+    build:
+      context: .
+      target: preview
+    ports:
+      - '8080:80'
+    profiles: [preview]
+
+volumes:
+  node_modules:

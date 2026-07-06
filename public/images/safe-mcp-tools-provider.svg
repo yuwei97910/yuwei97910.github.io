@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Public-safe MCP tools provider architecture</title>
+  <desc id="desc">Generic architecture diagram showing an AI agent, MCP server, tools, resources, prompts, and edge services.</desc>
+  <defs><marker id="a" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M2 2l8 4-8 4z" fill="#4f46e5"/></marker></defs>
+  <rect width="1200" height="675" fill="#f8f8ff"/>
+  <g font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif">
+    <text x="58" y="74" font-size="34" font-weight="700" fill="#1f1b4d">MCP Tools and Resources Provider</text>
+    <text x="60" y="108" font-size="16" fill="#55516f">Public-safe pattern for exposing edge data and actions to AI agents</text>
+    <g fill="#fff" stroke="#c7d2fe" stroke-width="2">
+      <rect x="70" y="285" width="185" height="110" rx="18"/><rect x="365" y="250" width="210" height="175" rx="22"/><rect x="690" y="160" width="210" height="88" rx="18"/><rect x="690" y="292" width="210" height="88" rx="18"/><rect x="690" y="424" width="210" height="88" rx="18"/><rect x="990" y="292" width="150" height="88" rx="18"/>
+    </g>
+    <g fill="#1f1b4d" font-size="21" font-weight="700"><text x="112" y="328">AI Agent</text><text x="404" y="315">MCP Server</text><text x="730" y="195">Resources</text><text x="730" y="327">Tools</text><text x="730" y="459">Prompts</text><text x="1018" y="327">Services</text></g>
+    <g fill="#55516f" font-size="15"><text x="112" y="356">LLM workflow</text><text x="404" y="345">contracts + schema</text><text x="730" y="221">data + metadata</text><text x="730" y="353">actions</text><text x="730" y="485">task templates</text><text x="1018" y="353">edge APIs</text></g>
+    <g fill="none" stroke="#4f46e5" stroke-width="3" marker-end="url(#a)"><path d="M255 340 L365 340"/><path d="M575 300 C632 260 640 205 690 204"/><path d="M575 338 L690 338"/><path d="M575 376 C632 410 640 468 690 468"/><path d="M900 338 L990 338"/></g>
+  </g>
+</svg>

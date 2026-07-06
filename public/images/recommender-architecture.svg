@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Movie recommender architecture</title>
+  <desc id="desc">Architecture diagram for a Python and Dash movie recommendation system using KNN and SVD.</desc>
+  <defs><marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M2,2 L10,6 L2,10 Z" fill="#db2777"/></marker></defs>
+  <rect width="1200" height="675" fill="#fff7fb"/>
+  <g font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif">
+    <text x="58" y="72" font-size="34" font-weight="700" fill="#2b1020">Classic Movie Recommender</text>
+    <text x="60" y="106" font-size="16" fill="#69445b">Ratings and metadata processed into similarity and latent-factor recommendation models</text>
+    <g fill="#fff" stroke="#f9a8d4" stroke-width="2">
+      <rect x="70" y="280" width="190" height="110" rx="18"/><rect x="360" y="280" width="190" height="110" rx="18"/><rect x="650" y="190" width="190" height="110" rx="18"/><rect x="650" y="390" width="190" height="110" rx="18"/><rect x="940" y="285" width="190" height="110" rx="18"/>
+    </g>
+    <g fill="#2b1020" font-size="22" font-weight="700"><text x="110" y="324">MovieLens</text><text x="398" y="324">Preprocess</text><text x="705" y="234">KNN</text><text x="705" y="434">SVD</text><text x="984" y="328">Dash UI</text></g>
+    <g fill="#69445b" font-size="16"><text x="110" y="352">ratings + movies</text><text x="398" y="352">features + splits</text><text x="705" y="262">similar users/items</text><text x="705" y="462">latent factors</text><text x="984" y="356">recommendations</text></g>
+    <g fill="none" stroke="#db2777" stroke-width="3" marker-end="url(#arrow)"><path d="M260 335 L360 335"/><path d="M550 320 C600 292 615 250 650 245"/><path d="M550 350 C600 380 615 435 650 445"/><path d="M840 245 C905 260 915 310 940 330"/><path d="M840 445 C905 430 915 365 940 350"/></g>
+  </g>
+</svg>

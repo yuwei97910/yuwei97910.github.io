@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Analytics modeling flow</title>
+  <desc id="desc">Diagram showing data ingestion, feature engineering, model comparison, validation, and decision support.</desc>
+  <defs><marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M2,2 L10,6 L2,10 Z" fill="#ea580c"/></marker></defs>
+  <rect width="1200" height="675" fill="#fffaf5"/>
+  <g font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif">
+    <text x="60" y="72" font-size="34" font-weight="700" fill="#271307">Analytics and Modeling Flow</text>
+    <text x="62" y="106" font-size="16" fill="#6f4f3a">Reusable pattern across SAS competition, econometrics, manufacturing data science, and statistical learning work</text>
+    <g fill="#fff" stroke="#fdba74" stroke-width="2">
+      <rect x="65" y="300" width="170" height="100" rx="18"/><rect x="295" y="300" width="170" height="100" rx="18"/><rect x="525" y="300" width="170" height="100" rx="18"/><rect x="755" y="300" width="170" height="100" rx="18"/><rect x="985" y="300" width="150" height="100" rx="18"/>
+    </g>
+    <g fill="#271307" font-size="21" font-weight="700"><text x="98" y="342">Raw Data</text><text x="318" y="342">Features</text><text x="558" y="342">Models</text><text x="790" y="342">Validation</text><text x="1018" y="342">Insight</text></g>
+    <g fill="#6f4f3a" font-size="15"><text x="98" y="370">1M+ records</text><text x="318" y="370">engineering</text><text x="558" y="370">RF / XGB / GLM</text><text x="790" y="370">CV + metrics</text><text x="1018" y="370">decisions</text></g>
+    <g fill="none" stroke="#ea580c" stroke-width="3" marker-end="url(#arrow)"><path d="M235 350 L295 350"/><path d="M465 350 L525 350"/><path d="M695 350 L755 350"/><path d="M925 350 L985 350"/></g>
+  </g>
+</svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Public-safe production intelligence architecture</title>
+  <desc id="desc">Generic data architecture for production events, time-series storage, cache, indicators, and APIs.</desc>
+  <defs><marker id="a" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M2 2l8 4-8 4z" fill="#0891b2"/></marker></defs>
+  <rect width="1200" height="675" fill="#f8fdff"/>
+  <g font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif">
+    <text x="58" y="74" font-size="34" font-weight="700" fill="#082f49">Production Intelligence Data Flow</text>
+    <text x="60" y="108" font-size="16" fill="#475569">Public-safe transformation from equipment events into indicators and dashboards</text>
+    <g fill="#fff" stroke="#bae6fd" stroke-width="2">
+      <rect x="70" y="190" width="195" height="88" rx="18"/><rect x="70" y="322" width="195" height="88" rx="18"/><rect x="70" y="454" width="195" height="88" rx="18"/>
+      <rect x="365" y="285" width="205" height="135" rx="20"/><rect x="675" y="190" width="205" height="88" rx="18"/><rect x="675" y="322" width="205" height="88" rx="18"/><rect x="675" y="454" width="205" height="88" rx="18"/><rect x="980" y="315" width="150" height="105" rx="18"/>
+    </g>
+    <g fill="#082f49" font-size="21" font-weight="700"><text x="104" y="225">Event Logs</text><text x="104" y="357">WIP Logs</text><text x="104" y="489">Master Data</text><text x="402" y="333">Message Bus</text><text x="710" y="225">Time-Series DB</text><text x="710" y="357">Cache</text><text x="710" y="489">Indicator Jobs</text><text x="1014" y="356">APIs</text></g>
+    <g fill="#475569" font-size="15"><text x="104" y="251">states + faults</text><text x="104" y="383">yield + timing</text><text x="104" y="515">line + device</text><text x="402" y="363">stream processing</text><text x="710" y="251">TTL + aggregation</text><text x="710" y="383">hot metrics</text><text x="710" y="515">OEE · UPH · CT</text><text x="1014" y="382">apps + teams</text></g>
+    <g fill="none" stroke="#0891b2" stroke-width="3" marker-end="url(#a)"><path d="M265 234 C320 250 323 310 365 326"/><path d="M265 366 L365 352"/><path d="M265 498 C322 460 326 385 365 372"/><path d="M570 335 C620 288 628 236 675 232"/><path d="M570 360 C625 360 630 364 675 366"/><path d="M570 386 C623 438 630 494 675 500"/><path d="M880 232 C938 254 945 330 980 354"/><path d="M880 500 C940 474 946 386 980 374"/></g>
+  </g>
+</svg>
